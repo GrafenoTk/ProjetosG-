@@ -1,0 +1,9 @@
+# Permitir acesso a todos os arquivos
+<Files "*">
+  Require all granted
+</Files>
+
+# Permitir solicitações PUT
+<Limit PUT>
+  Require all granted
+</Limit>
